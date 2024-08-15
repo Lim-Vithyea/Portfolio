@@ -243,6 +243,8 @@ section{
     .school-img img{
         max-width: auto;
         height: 200px;
+        display: flex;
+        justify-content: center;
         align-items: center;
         border-radius: 10px;
         transition: 200ms;
