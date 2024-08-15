@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li><a href="#" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-1">About</a></li>
+            <li><a href="#exp">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button>Resume</button>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#home" class="hideonMobile">Home</a></li>
+            <li><a href="#about-1" class="hideonMobile">About</a></li>
+            <li><a href="#exp" class="hideonMobile">Experience</a></li>
+            <li><a href="#contact" class="hideonMobile">Contact</a></li>
+            <li class="hideonMobile">|</li>
+            <li>
+                <button class="hideonMobile">Resume</button>
+            </li>
+            <li><a href="#" onclick=showSidebar() class="menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <div class="container">
+            <img src="./images/face.jpg" alt="face" id="profile">
+            <h1 class="name">Front-End</h1>
+            <h1 class="name">Web developer</h1>
+            <p id="text">A Self taught Front-End Developer with alomst a half year experinece in Front-End Web Development</p>
+            <button id="btn">Reach me ></button>
+            </div>
+    </main>
+    <section id="about-1">
+    <div class="about">
+    <div>
+        <h1 id="txt-about">About</h1>
+        <p class="text-p">Hello Guys! My name is Lim Vithyea also you can call me by my nickname(Chea or Raiden). I'm a Junior college student at National University of Management that located in the middle of Phnom Penh
+        I learned Front-End Wev Development by myself with some YouTube tutorial and read some documentation online.
+        Actually i don't have enough experinece yet. But i'm looking for Intership on this job field. And i can make a small website for customer if they needed.</p>
+    </div>
+    <div id="pic">
+        <img src="./images/me.jpg" alt="num student">
+    </div>
+</div>
+</section id="exp">
+<h1 id="txt-exp">Experience</h1>
+<section id="exp">
+    <div class="flex-pic">
+        <div class="grid-pic">
+            <div>
+                <h1 class="header-txt">High School</h1>
+                <p class="text-p">Graduated at Somdach Euv High School in 2022 at Banteay MeanChey province. I was in 12E science class also i got D grade in BacII</p>
+            </div>
+            <div class="school-img">
+                <img src="./images/photo_2024-08-13_13-40-36.jpg" alt="">
+            </div>
+            <div>
+                <h1 class="header-txt">University</h1>
+                <p class="text-p">I enrolled for IT major in 2022 and currently studying at National University of Management that located in Phnom Penh. I'm a years 3 student in Information Technology(IT). The experience in the college is very different from High School</p>
+            </div>
+            <div>
+                <div class="school-img">
+                <img src="./images/photo_2024-08-13_13-59-48.jpg" alt="">
+            </div>
+        </div>
+        <div>
+            <h1 class="header-txt">Currently Work</h1>
+            <p class="text-p">I started to join the Robotic team as a Volenteers student and i had join many socaiol event and  compitition since 2023 till now. I gained some knowledge of Mechanic, Electronic and some Engineering skills</p>
+        </div>
+        <div class="school-img">
+            <img src="./images/photo_2024-08-13_14-16-31.jpg" alt="">
+        </div>
+    </div>
+</section>
+</body>
+</html>
