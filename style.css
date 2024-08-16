@@ -264,3 +264,51 @@ section{
         text-align: center;
     }
 }
+.contain{
+    display: block;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.row h1{
+    background: linear-gradient(to right, #2E3192, #1BFFFF,#cf23cf, #1BFFFF);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.row p {
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+#icon li{
+    display: inline-flex;
+    text-decoration: none;
+}
+#icon i{
+    font-size: 2rem;
+    padding: 10px;
+}
+#icon .bi-facebook{
+    color: blue;
+}
+#icon .bi-twitter{
+    color: cyan;
+}
+#icon .bi-instagram{
+    color: pink;
+}
+.footer-bottom{
+    background-color: rgb(131, 131, 131);
+    color: white;
+    font-size: 20px;
+}
+.bi-telegram{
+    padding: 10px;
+}
