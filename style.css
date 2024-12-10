@@ -124,6 +124,20 @@ body.dark-mode h5, body.dark-mode h6, body.dark-mode span
     background: linear-gradient(90deg, rgb(43, 49, 206) 0%, rgba(29,253,201,1) 50%, rgba(27,255,255,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    
+}
+.typing {
+    width: 490px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
 }
 #text{
     color: white;
@@ -193,6 +207,19 @@ section{
     .about {
         flex-direction: column;
         margin-top: 30px;
+    }
+    .typing {
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid #7E2EA0;
+        animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+    }
+    @keyframes cursor {
+        50% { border-color: transparent }
     }
 }
 @media(max-width: 500px){
@@ -432,4 +459,16 @@ section{
 }
 .bi-telegram{
     padding: 10px;
+}
+.leDoorCloseLeft span { animation-name: leDoorCloseLeft }
+@keyframes leDoorCloseLeft {
+    from, to {
+        transform: perspective(400px);
+        transform-origin: left
+    }
+    from {
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to { opacity: 1 }
 }
