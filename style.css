@@ -261,6 +261,8 @@ section{
 .school-img img{
     max-width: auto;
     margin-right: 20px;
+    display: flex;
+    flex-shrink: 1;
     height: 300px;
     align-items: center;
     margin-left: 30px;
