@@ -268,7 +268,7 @@ section{
     flex-shrink: 1;
     height: 300px;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 10px;
     border-radius: 10px;
     display: flex;
     transition: 200ms;
