@@ -438,22 +438,26 @@ section{
     font-weight: 600;
     margin: 20px 0px 20px 0px;
 }
+#icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 #icon li{
     display: inline-flex;
     text-decoration: none;
 }
 #icon i{
     font-size: 2rem;
-    padding: 10px;
 }
 #icon .bi-facebook{
-    color: blue;
+    color: #0866FF
 }
 #icon .bi-twitter{
     color: cyan;
 }
 #icon .bi-instagram{
-    color: pink;
+    color: #FF0069;
 }
 .footer-bottom{
     background-color: rgb(131, 131, 131);
